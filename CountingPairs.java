@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class CountingPairs {
+public class CoutingPairs {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class CountingPairs {
 		}
 		long k = scan.nextLong();
 		int count = countPair(numbers, k);
-		System.out.println("Numbers of pairs:" + count);
+		System.out.println(count);
 	}
 
 	private static int countPair(long[] numbers, long k) {

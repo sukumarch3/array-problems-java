@@ -10,7 +10,7 @@ public class UniqueArrayElementsSum {
 			numbers[i] = scan.nextInt();
 		}
 		long result = getUniqueArray(numbers);
-		System.out.println("Array:" + result);
+		System.out.println(result);
 	}
 
 	private static long getUniqueArray(int[] numbers) {
@@ -20,7 +20,6 @@ public class UniqueArrayElementsSum {
 			for (; n < array.length && array[n]; n++)
 				;
 			array[n] = true;
-			System.out.println("n:" + n);
 			sum += n;
 		}
 		return sum;
